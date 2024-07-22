@@ -1,0 +1,54 @@
+.Wrapper{
+  max-height: 220px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow: auto;
+  padding: 200px;
+}
+.Wrapper .ContainerA{
+  min-height: 200px;
+  min-width: 200px;
+  padding: 20px;
+  line-height: 100px;
+  text-align:center;
+  background-color: #ddd;
+  margin-right: 20px;
+}
+.Wrapper::-webkit-scrollbar{
+  width: 30px;
+}
+
+.ContainerA{
+    display: flex;
+    margin-right: 880px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.n33{
+    display: flex;
+    width: 250px; /* Set the desired width */
+  
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    padding-left: 70px;
+  }
+  .textA{
+    color: rgb(1, 16, 8);
+  }
+  btn1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  btn1:hover {
+    background-color: #0056b3;
+  }
